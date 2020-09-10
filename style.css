@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html, body {height: 100%;}
+
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal {
+max-width: 60em;
+margin: 0 auto;
+
+}
+
+.content {
+}
+
+.cards {
+
+}
+
+.card-title {
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px cadetblue;
+    margin-top: 4rem;
+    text-align: center;
+
+}
+
+.card-text-content { 
+    background-color: cadetblue;
+    border-radius: 5rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 20rem;
+
+}
+
+#clareamento .card-title{
+}
+#clareamento .card-text{
+}
+
+#canal .card-title{
+
+}
+#canal .card-text{
+}
+
+.card-text {
+    margin-top: 0rem;
+    color: white;
+    text-shadow: 0.2px 0.2px 0.2px black;
+    margin-top: 3rem;
+
+}
+
+.card_content {
+    margin-top:2rem;
+
+}
+
+.card-img {
+    height: 14rem ;
+}
+
+
+.navbar-brand {
+    margin-left: -5rem;
+}
+
+
+.footer {
+    text-align: center;
+    width: 100%;
+   padding: 0.4rem;
+
+}
