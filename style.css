@@ -16,10 +16,8 @@ body {
 }
 
 .principal {
-width: 100%;
 max-width: 60em;
 margin: 0 auto;
-
 
 }
 
@@ -40,6 +38,15 @@ margin: 0 auto;
 
 }
 
+.card {
+    width: 100%;
+    position: relative;
+}
+
+.card-img-overlay {
+    width: 100%;
+}
+
 .card-title {
     font-size: 1.7rem;
     color: black;
@@ -50,30 +57,45 @@ margin: 0 auto;
 }
 
 .card-text {
+    position:absolute;
+    width: 100%;
+    text-align: center;
     font-size: 0.8rem;
     margin-top: 0rem;
     color: white;
-    text-shadow: 0.2px 0.2px 0.2px black;
     margin-top: 3rem;
-
-}
-
-.card-text-content { 
     background-color: cadetblue;
-    border-radius: 5rem;
-    margin: 0 auto;
-    text-align: center;
-    width: auto;
+    margin-left: -1.25rem;
+    height: 3rem;
+    padding: 1rem;
+    opacity: 0.8;
 
 }
+/* 
+.card-text-content { 
+    position: absolute;
+    width: 100%;;
+    /* border-radius: 5rem; */
+    /* margin: 0 auto;
+    width: 100%;
+
+} */
 
 .card_content {
     margin-top:2rem;
+    width: 100%;
+    border: 0;
+}
+
+.card_content img {
+    border: 0;
 }
 
 .card-img {
     height: 15rem ;
+    border: 0;
 }
+
 
 .navbar-brand {
     margin-left: -5rem;
@@ -118,9 +140,7 @@ margin: 0 auto;
     margin-top: 0rem;
     max-width: 12rem;
     /* margin-left: 12rem; */
-
 }
-
 
 .footer {
     background-color: cadetblue;
