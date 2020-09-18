@@ -160,10 +160,7 @@ margin: 0 auto;
     margin-top: 2rem;
     text-align: center;
     width: 100%;
-    text-align: center;
     position: absolute;
-    vertical-align: middle;
-    display: table-cell;
 }
 
 .footer p {
