@@ -26,7 +26,6 @@ body {
 .principal {
 max-width: 60em;
 margin: 0 auto;
-
 }
 
 .logo {
@@ -146,7 +145,7 @@ margin: 0 auto;
 }
 
 .img-fone a img{
-    max-width: 5.5rem;
+    width: 5.75rem;
 }
 
 .contatos img {
